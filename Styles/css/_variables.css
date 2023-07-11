@@ -6,3 +6,8 @@
 :root {
   --token-set-order-0: global;
 }
+
+.colorTest{
+  background-color: red;
+
+}
