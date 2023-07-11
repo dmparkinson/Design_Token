@@ -1,13 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Tue, 11 Jul 2023 18:36:19 GMT
+ * Generated on Tue, 11 Jul 2023 19:35:00 GMT
  */
 
 :root {
+  --bg-primary: #0170CC;
   --token-set-order-0: global;
-}
-
-.colorTest{
-  background-color: red;
-
+  --token-set-order-1: Buttons;
 }

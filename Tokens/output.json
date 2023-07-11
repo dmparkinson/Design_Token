@@ -1,7 +1,16 @@
 {
+  "bg-primary": {
+    "value": "#0170CC",
+    "type": "color",
+    "description": "primary button color"
+  },
   "tokenSetOrder": {
     "0": {
       "value": "global",
+      "type": "other"
+    },
+    "1": {
+      "value": "Buttons",
       "type": "other"
     }
   }
