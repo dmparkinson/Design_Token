@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="build/css/_variables.css">
+    </head>
+    <body>
+        <style>
+            button {
+                background-color: var(--bg);
+                color: white;
+            }
+        </style>
+        <button>Hello</button>
+    </body>
+</html>
+
+<!-- https://satellytes.com/blog/post/installing-and-syncing-figma-design-tokens/-->
+
+<!--Refresh tokens 
+    instalación 
+        - npm install token-transformer
+    uso
+        - npx token-transformer Tokens/token.json Tokens/output.json 
+-->
+
+<!-- Generar el css de estilos con el output.json
+    instalación 
+        - npm install -g style-dictionary
+    primer uso en CMD
+        - style-dictionary init basic
+    ejecutar cambios
+        - npx style-dictionary build
+-->

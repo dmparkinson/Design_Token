@@ -1,0 +1,6 @@
+
+{
+    "scripts": {
+        "build":"token-transformer Tokens/token.json Tokens/output.json && npx style-dictionary build"
+    }
+}
