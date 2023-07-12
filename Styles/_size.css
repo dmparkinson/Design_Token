@@ -1,0 +1,30 @@
+
+.s-sm{
+    height: 30px;
+    gap: 10px;
+    font-size: 14px;
+    padding: 0px 12px;
+    font-weight: 400;
+    background-size: 10px;
+}
+
+.s-md{
+    height: 36px;
+    gap: 6px;
+    font-size: 16px;
+    padding: 12px 16px;
+    font-weight: 500;
+    background-size: 13px;
+}
+
+.sw-50{
+    width: 50%;
+}
+
+.sw-70{
+    width: 50%;
+}
+
+.sw-30{
+    width: 50%;
+}

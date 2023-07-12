@@ -1,9 +1,9 @@
 {
-  "source": ["Tokens/output.json"],
+  "source": ["tokens/**/*.json"],
   "platforms": {
-    "css": {
+    "scss": {
       "transformGroup": "css",
-      "buildPath": "Styles/css/",
+      "buildPath": "Styles/",
       "files": [{
         "destination": "_variables.css",
         "format": "css/variables"

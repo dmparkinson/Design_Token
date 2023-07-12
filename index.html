@@ -1,36 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="Styles/css/_variables.css">
+        <link rel="stylesheet" href="Styles/_variables.css">
+        <link rel="stylesheet" href="Styles/TEMPORAL.css">
+        <link rel="stylesheet" href="Styles/_size.css">
+        <link rel="stylesheet" href="Styles/_buttons.css">
+        <link rel="stylesheet" href="Styles/_containers.css">
     </head>
     <body>
-    <button class="btn-primary-color">Primary</button>
-    </body>
+    
+        <div class="container-center sw-30">
+            <div class="justify-content">
+                <div>
+                    <button class="btn-tertiary" onclick="location.href = '../Design_Token/Templates/buttons.html';">Botones</button>
+                </div>
+                <div>
+                    <button class="btn-tertiary">Botones</button>
+                </div>
+            </div>
+        </div>
+    
+</body>
 </html>
 
 
-<!-- Generar
-    npm run build
--->
-
-<!-- ==============================================
-    Configuración de código para el design token
-============================================== -->
-
-<!-- https://satellytes.com/blog/post/installing-and-syncing-figma-design-tokens/-->
-
-<!--Refresh tokens 
-    instalación 
-        - npm install token-transformer
-    uso
-        - npx token-transformer Tokens/token.json Tokens/output.json 
--->
-
-<!-- Generar el css de estilos con el output.json
-    instalación 
-        - npm install -g style-dictionary
-    primer uso en CMD
-        - style-dictionary init basic
-    ejecutar cambios
-        - npx style-dictionary build
--->
